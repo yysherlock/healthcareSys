@@ -127,7 +127,7 @@ def crawl(startPageIdx, endPageIdx):
                         f.flush()
                 except:
                     continue
-                time.sleep(60)
+                time.sleep(30)
 
 
 if __name__ == "__main__":
@@ -145,6 +145,6 @@ if __name__ == "__main__":
         startPageIdx = endPageIdx
         iteration += 1
 
-        time.sleep(20)
+        time.sleep(120)
 
 driver.close()
